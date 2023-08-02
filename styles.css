@@ -7,6 +7,24 @@ font-family: 'Balsamiq Sans';
   justify-content: space-between;
   align-items: center;
 }
+/* Desktop styles (default) */
+body {
+  font-size: 16px;
+}
+
+/* Tablet styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
 button {
 margin-bottom: 5px; 
 border: solid 2px black; 
