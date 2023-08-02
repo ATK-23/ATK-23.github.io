@@ -1,0 +1,14 @@
+/* Dark mode styles */
+.banner {
+  background-color: #000000;
+  border: solid #fcc200;
+}
+button {
+  border: solid 2px #fcc200;
+}
+body {
+  background-color: #000000;
+  color: #f0f0f0;
+}
+
+/* Rest of the dark mode styles... */
