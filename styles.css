@@ -6,7 +6,6 @@ font-family: 'Balsamiq Sans';
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
 }
 /* Desktop styles (default) */
 body {
