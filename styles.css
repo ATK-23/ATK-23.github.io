@@ -1,10 +1,10 @@
 /* Código CSS aquí */
 article {
-  background-color: #777777;
+  background-color: #fcc4ff;
   border-radius: 10px;
-  border: solid 4px #faa3ff;
+  border: solid 3px #faa3ff;
   padding: 5px 15px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 button, h1, h2, h3 {
