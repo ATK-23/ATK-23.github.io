@@ -3,6 +3,7 @@ section {
   background-color: #777777;
   border-radius: 10px;
   border: solid 2px #AA3300;
+  padding: 15px 10px;
 }
 
 button, h1, h2, h3 {
