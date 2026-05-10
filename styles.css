@@ -1,12 +1,20 @@
 /* Código CSS aquí */
+section {
+  background-color: #777777;
+  border-radius: 10px;
+  color: #F2CC00;
+}
+
 button, h1, h2, h3 {
 font-family: 'Balsamiq Sans';
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .switch:
 focus-visible {
   outline: none;
@@ -58,11 +66,6 @@ background-color: #FF6666;
   background-color: #ccc;
   border-radius: 34px;
   transition: 0.4s;
-}
-
-section {
-  background-color: #777777;
-  border-radius: 10px;
 }
 
 .slider:before {
