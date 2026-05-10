@@ -60,6 +60,11 @@ background-color: #FF6666;
   transition: 0.4s;
 }
 
+.article {
+  background-color: #777777
+    border-radius: 10px
+}
+
 .slider:before {
   position: absolute;
   content: "";
