@@ -5,6 +5,8 @@ article {
   border: solid 3px #faa3ff;
   padding: 5px 15px;
   margin-bottom: 8px;
+  width: 30%;
+  max-width: 300px;
 }
 
 button, h1, h2, h3 {
