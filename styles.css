@@ -1,12 +1,17 @@
 /* Código CSS aquí */
 article {
-  background-color: #fcc4ff;
+  backarticleground-color: #fcc4ff;
   border-radius: 10px;
   border: solid 3px #faa3ff;
   padding: 5px 15px;
-  margin-bottom: 8px;
-  width: 30%;
-  max-width: 300px;
+  margin-bottom: 10px;
+  width: 45%; 
+  max-width: 750px;
+}
+
+section {
+  display: flex;
+  gap: 20px;
 }
 
 button, h1, h2, h3 {
