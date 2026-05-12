@@ -54,7 +54,12 @@
   </a>
 </div>
   <div>
-  <button style="background-color: #dd9955;"><img src="https://static.wikia.nocookie.net/d4dj/images/6/6d/Nyochio.png" alt="Nyochio"></button>
+    <audio id="clickSound" src="/stuff/Platinum.ogg"></audio>
+<audio id="ClickOnNyochio" src="/stuff/NyochioNya.mp3"></audio>
+<button onclick="document.getElementById('clickSound').play()">
+  Saki is so cute!
+</button>
+  <button onclick="document.getElementById('ClickOnNyochio').play()" style="background-color: #dd9955;"><img style="max-width: 100px; max-height; 100px;" src="/stuff/Nyochio.webp" alt="Nyochio"></button>
 </div>
 </body>
 <script src="script.js"></script>
