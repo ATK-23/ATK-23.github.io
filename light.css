@@ -8,4 +8,9 @@ body {
   color: #000000;
 }
 
+article {
+  background-color: #fcc4ff;
+  border: solid 3px #faa3ff;
+}
+
 /* Rest of the light mode styles... */

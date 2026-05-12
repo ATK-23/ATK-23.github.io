@@ -3,6 +3,11 @@
   background-color: #000000;
   border: solid #fcc200;
 }
+article {
+  background-color: #521555;
+  color: #fcc4ff;
+  border: solid 3px #fcc4ff;
+}
 button {
   border: solid 2px #fcc200;
 }
