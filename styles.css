@@ -1,3 +1,7 @@
+html {
+  font-family: sans-serif;
+  }
+
 article {
   border-radius: 10px;
   padding: 5px 15px;
@@ -8,6 +12,9 @@ article {
   max-width: 350px;
 }
 
+a {
+  text-decoration: none;
+}
 section {
   display: flex;
   gap: 20px;
