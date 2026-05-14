@@ -1,2 +1,1 @@
-<h1>Can I use html code here?</h1>
-theoretically, nyes
+Tl; Dr: Page just for fun and start learning 

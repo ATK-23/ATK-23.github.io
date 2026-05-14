@@ -1,10 +1,9 @@
-/* Light mode styles */
 .banner {
   background-color: #FFFF55;
   border: solid #000000;
 }
 body {
-  background-color: #AAAA00;
+  background-color: #BBAA44;
   color: #000000;
 }
 
@@ -12,5 +11,6 @@ article {
   background-color: #fcc4ff;
   border: solid 3px #faa3ff;
 }
-
-/* Rest of the light mode styles... */
+.SocialMediaButton {
+  color: #000;
+}
