@@ -3,6 +3,8 @@ html {
   }
 
 body {
+  margin: 0px;
+  min-height: 100vh;
   font-size: 16px;
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -27,7 +29,7 @@ nav {
 }
 
 main {
-  padding: 0 0 0 5px;
+  padding: 0 0 0 7px;
  grid-area: main;
  background-color: #2651f6;
 }
