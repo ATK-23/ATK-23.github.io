@@ -1,8 +1,26 @@
 <!doctype html>
 <html>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link id="stylesheet" rel="stylesheet" type="text/css" href="light.css">
 <body style="background-color: #7799FF; ">
-<a href="/index.html"><button style="border: solid 2px black; border-radius: 5px; height: 30px; width: 100px; background-color: #BBAA44; ">Volver</button></a><br>
-<h1>Novedades:</h1>
+  <header>
+  <button style="width: 30px; height: 30px; background-color: #000; border-color: #fff; color: #fff;">|||</button><h2 class="banner" style="padding: 2px 70px;">Novedades</h2>
+    <label class="switch" style="float: right;  margin-right: 20px; transform: translateX(-20px);">
+      <input type="checkbox" id="toggleSwitch">
+      <span class="slider"></span>
+    </label>
+  </div>
+  </header>
+  <nav>
+    <a href="/Recovery.html"><button style=" border-radius: 0px; margin: 0px 0px; background-color: #FF4747; width: 200px;"><h2>Bodega</h2></button></a>
+    <a href="/index.html"><button style="background-color: #BBAA44; border-radius: 0px; margin: 0px 0px; width: 200px;"><h2>Inicio</h2></button></a>
+</nav>
+<main>
+<h1>Cambios recientes en la página:</h1>
+<span style=" font-size: 22px; font-weight: bold;">05-14-26 v0.5</span>
+<ul>
+  <li>Se agregó la nueva interfaz con grid a las dos secciones, de forma que ahora las tres páginas tienen el mismo diseño</li><br>
+</ul>
 <span style=" font-size: 22px; font-weight: bold;">05-14-26 v0.4</span>
 <ul>
   <li>Se cambió la estructura de la página por completo!, ahora se utilizará "grid" en lugar de "flex".<br>
@@ -44,5 +62,28 @@
   <span>Ninguna, esta es la primera versión</span>
 </li>
 </ul>
+</main>
+<footer>
+<div style="text-align: center;">
+  <a href="https://music.youtube.com/channel/UCf0APPs72ucscdrMQ4iwBjQ?si=YCpOSY8U38yLL0sG" target="_blank">
+    <button class="SocialMediaButton" style="background-color: #660000; border: solid 2px red;">
+      <img style="max-height: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/250px-Youtube_Music_icon.svg.png" alt="YouTube Music"><br>
+      <h3>My YT Music</h3>
+    </button>
+  </a>
+  <a href=" https://youtube.com/@cruzgzzv23" target="_blank">
+    <button class="SocialMediaButton" style="background-color: #660014; border: solid 2px #FF0037;">
+      <img style="max-height: 50px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/YouTube_full-color_icon_%282024%29.svg/330px-YouTube_full-color_icon_%282024%29.svg.png" alt="YouTube Channel"><br>
+      <h3>My YouTube</h3>
+    </button>
+  </a>
+  <a href="https://mobile.twitter.com/cruzgzzv" target="_blank">
+    <button class="SocialMediaButton" style="background-color: #666666; border-color: #fff;">
+      <img style="max-height: 30px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/330px-X_logo_2023.svg.png" alt="Twitter"><br>
+      <h3>My Twitter (X)</h3>
+    </button>
+  </a>
+</div>
+</footer>
 </body>
 </html>
