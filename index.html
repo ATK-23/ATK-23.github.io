@@ -8,16 +8,17 @@
 </head>
 <body>
 <header>
-  <button style="width: 30px; height: 30px; background-color: #000; border-color: #fff; color: #fff;">|||</button><h2 class="banner" style="padding: 2px 70px;">BIENVENID@</h2>
+  <button onclick=" shownav()" style="width: 30px; height: 30px; background-color: #000; border-color: #fff; color: #fff;">|||</button><h2 class="banner" style="padding: 2px 70px;">BIENVENID@</h2>
     <label class="switch" style="float: right;  margin-right: 20px; transform: translateX(-20px);">
       <input type="checkbox" id="toggleSwitch">
       <span class="slider"></span>
     </label>
   </header>
 
-<nav>
+<nav style="border: solid 2px #000"
     <a href="/Recovery.html"><button style=" border-radius: 0px; margin: 0px 0px; background-color: #FF4747; width: 200px;"><h2>Bodega</h2></button></a>
     <a href="/Novedades.html"><button style="background-color: #7799FF; border-radius: 0px; margin: 0px 0px; width: 200px;"><h2>Novedades</h2></button></a>
+    <a href="/D4DJ.html"><button style="border-radius: 0px; margin: 0 0; background: linear-gradient(to right, #FF00EA, #5025F9); width: 200px;"><img style="max-width: 190px;" src="https://res.cloudinary.com/ducug6jqw/image/upload/v1778882255/d4dj_logo_white_q2wbk5.png"></button></a>
 </nav>
 
 <main>
@@ -39,22 +40,6 @@
  </article>
     
   </section>
-
-  <button style="background-color: #dd9955">
-      <video id="VideoNyochio" poster="https://res.cloudinary.com/ducug6jqw/image/upload/v1778642076/Nyochio_cki85y.webp" style="background-color: #227722;border-radius: 10px; border: solid 5px #F2cc00; width: 500px; max-height: 241px; transition: width 0.5s ease;" src="https://res.cloudinary.com/ducug6jqw/video/upload/v1778621945/D4DJ_English_Channel_-_Nyochio_Is_Coming_Yay_Yay_Yay_English_Subbed_px7uad.mp4" onclick="this.play(); this.style.width='422px'"></video>
-      <h2>Press Nyochio to play "Nyochio is coming!" video</h2>
-      </button>
-      
-   <button style=" background-color: #E6FFEC;">
-     <audio id="Platinum" src="https://res.cloudinary.com/ducug6jqw/video/upload/v1778641413/Platinum_jfxkme.ogg"></audio>
-     <img onclick=" document.getElementById('Platinum').play()" src="https://res.cloudinary.com/ducug6jqw/image/upload/v1778637086/Saki_dd5nhh.webp" style=" max-height: 300px;"><h2>Saki is so cute!<br>(Press to play "Platinum")</h2>
-     </button>
-   
-  <button style="background-color: #dd9955;"> 
-   <audio id="ClickOnNyochio" src="https://res.cloudinary.com/ducug6jqw/video/upload/v1778642523/NyochioNya_rsi2f7.mp3"></audio>
-   <img onclick="document.getElementById('ClickOnNyochio').play()" style="max-width: 100px; max-height; 100px;" src="https://res.cloudinary.com/ducug6jqw/image/upload/v1778642076/Nyochio_cki85y.webp" alt="Nyochio"><br>
-   <h3>Mya~</h3></button>
-</div>
 </main>
 
 <footer>
@@ -81,4 +66,5 @@
 </footer>
 </body>
 <script src="dark-mode.js"></script>
+<script src="java.js"></script>
 </html>
